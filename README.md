@@ -1,0 +1,1 @@
+Welcome! This is where I take down notes and practice Python coding using Swaroop's A Byte Of Python! Feel free to read this guide, run the project and learn!
