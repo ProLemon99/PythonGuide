@@ -1,6 +1,5 @@
-# None of your business
-
-# https://youtu.be/pKO9UjSeLew
+# HIGHLY ADVANCED. I SUGGEST YOU DO SOME RESEARCH ON THIS ONE
+# FLOYD'S TORTOISE AND HARE CYCLE DETECTION ALGORITHM
 
 def findDuplicate(nums):
     tortoise = nums[0]
@@ -18,3 +17,6 @@ def findDuplicate(nums):
       ptr2 = nums[ptr2]
 
     return ptr1
+
+nums = [3, 1, 3, 4, 2]
+print(findDuplicate(nums))
