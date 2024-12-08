@@ -7,4 +7,3 @@ class example:
 
 example1 = example
 example1.draw()
-    

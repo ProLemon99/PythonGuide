@@ -1,9 +1,9 @@
-#sequential code goes straight down
+# sequential code goes straight down
 print("this")
 print("code")
 print("is sequential")
 
-#selection code has branching paths
+# selection code has branching paths
 x = int(input("this will determine what path happens: "))
 
 if x == 1:
@@ -13,7 +13,7 @@ elif x == 2:
 else:
     print("this is path three")
 
-#repetition code repeats over and over
+# repetition code repeats over and over
 inp = input("type your : ")
 password = "12345678"
 while inp not in password:

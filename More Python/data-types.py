@@ -1,8 +1,11 @@
+# strings, intergers, floats and booleans
+
 string_data = str(input("type a string here: "))
 integer_data = int(input("type an integer here: "))
 float_data = float(input("type a float here: "))
 boolean_data = bool(input("type a boolean here: "))
 databool = True
+
 list_data = list(input("Type list items here: "))
 dictionary_data = {}
 num_entries = int(input("Enter the number of entries you want to add: "))

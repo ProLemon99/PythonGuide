@@ -1,12 +1,14 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-#Reading the dataset
+
+# Reading the dataset
 try:
     df1 = pd.read_csv("spotify stuff/spotify_data.csv")
 except:
     print("Dataset has not been added correctly")
-#Defining the variables
+
+# Defining the variables
 genres = ["metal","Hard-rock","metalcore","death-metal"]
 year1 = [2000]
 year2 = []
@@ -15,11 +17,13 @@ column1 = ["artist_name","track_name","popularity","year","genre","duration_ms"]
 b = 2000
 year4 = [2000]
 year5 = []
-#Creating a list from 2000 - 2024
+
+# Creating a list from 2000 - 2024
 for i in range(0,24):
     year3.append(b)
     b = b+1
-#Creating a dataset of the most popular songs
+
+# Creating a dataset of the most popular songs
 try:
     df = df1.loc[df1['genre'].isin(genres)]
     for i in range(0,24): 
@@ -32,7 +36,8 @@ try:
         year4[0] = year4[0]+1
 except:
     print("Dataset does not include a genre column")
-#Creating a dataset of how many songs per year
+
+# Creating a dataset of how many songs per year
 try:
     for i in range(0,24):
         year2.append(len(df.loc[df['year'].isin(year1)]))
@@ -44,20 +49,21 @@ try:
 except:
     print("Dataset does not include a year column")
 
-#Creates the bar graph of how many songs per year
+# Creates the bar graph of how many songs per year
 def bar():
     y = np.array(year2)
     x = np.array(year3)
     plt.bar(x,y)
     plt.show()
-#Creates the bar graph of popularity over time
+
+# Creates the bar graph of popularity over time
 def plot():
     y = np.array(year5)
     x = np.array(year3)
     plt.bar(x,y)
     plt.show()
 
-#The inputs from the user and visualisation 
+# The inputs from the user and visualisation 
 def ui():
     print("""Please select an option:
                 1 - Show the original dataset
