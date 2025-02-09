@@ -1,7 +1,7 @@
 numbers = [1,2,3,4,5,6,7,8,9,0]
 numbers.append(1) # adds item at the end
 numbers.insert(1,10) # inserts items at given position
-numbers2 = numbers.copy() #copies the list
+numbers2 = numbers.copy() # copies the list
 # numbers.reverse - reverses list
 # numbers.sort - sorted in order
 # numbers.count - count how many of a certain number in list
