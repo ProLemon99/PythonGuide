@@ -1,0 +1,2 @@
+FLASK_APP=puppypals.py
+FLASK_DEBUG=1
