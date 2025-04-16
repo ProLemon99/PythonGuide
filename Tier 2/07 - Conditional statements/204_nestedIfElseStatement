@@ -1,0 +1,12 @@
+# This program will use nested if-else statements to determine the type of a number
+x = 10
+if x > 0:
+  if x % 2 == 0:
+    print("Positive even number")
+  else:
+    print("Positive odd number")
+else:
+  if x % 2 == 0:
+    print("Negative even number")
+  else:
+    print("Negative odd number")

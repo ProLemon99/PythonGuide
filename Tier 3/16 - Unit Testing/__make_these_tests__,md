@@ -1,0 +1,21 @@
+# Unit Test 1
+
+remember you need to make the function in main.py
+
+```def evenSumTest():```
+
+AND
+
+Write a test called evenSumTest.py
+
+# The Test
+
+1) Write a unit test for a function that 
+- takes in a list of integers and returns the sum of the even integers in the list.
+- uses Try-Except to deal with input errors
+
+2) Test for
+- an empty list,
+- list with only odd integers
+- and a list with both odd and even integers.
+
