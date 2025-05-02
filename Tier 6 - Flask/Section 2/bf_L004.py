@@ -1,7 +1,5 @@
-
 from flask import Flask, request, render_template
 import re
-
 
 app = Flask(__name__)
 
@@ -23,9 +21,6 @@ def form_submission():
     else:
         return "password not valid"
     # Do something with the name and email
-
-
-
 
 if __name__ == '__main__':
     app.run()

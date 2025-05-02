@@ -16,10 +16,8 @@ label2.pack(side='right')
 def toggled():
     print('The check button. It works.')
 
-var = IntVar() #This will check if the checkbox is clicked or not
+var = IntVar() # This will check if the checkbox is clicked or not
 check = Checkbutton(root, text='Click Me!', bg='skyblue', command=toggled, variable=var, anchor='w')
 check.pack(side='bottom')
 
 root.mainloop()
-
-

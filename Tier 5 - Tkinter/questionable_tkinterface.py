@@ -1,11 +1,12 @@
 from tkinter import *
 from tkinter import messagebox
-#Global variables
+
+# Global variables
 escaped = False
 door_key = False
 game_over = False
 
-#Setup main screen
+# Setup main screen
 root = Tk()
 root.title('Questionable Tkinterface')
 root.maxsize(700, 700)
@@ -131,8 +132,6 @@ def southDoor(img_path, msg, txt, size):
     user_ans.grid(column=1, row=5, padx=5, pady=5)
     enter_btn = Button(window, text='Enter', command=lambda: checkInput(user_ans, window), bg='peachpuff4').grid(column=1, row=6, padx=5, pady=5)
 
-
-
 def checkInput(user_ans, wind):
     global door_key
 
@@ -187,7 +186,7 @@ def escapeDungeon():
         root.destroy()
 
 def setupButtons():
-#We use 'lambda' if we want to pass parameters to our functions in a Button command.
+# We use 'lambda' if we want to pass parameters to our functions in a Button command.
     statue_btn = Button(root, text='Check Statue', 
                         command=lambda: closeOnlyScreen(
                         'qtgfx/statue.png','If you open the chest, you will discover its \neffects.','Statue of Solace', 1), 
@@ -233,9 +232,6 @@ def setupButtons():
                     command=lambda: exitDoor(
                     'qtgfx/exit.png', 3), 
                     bg='peachpuff4', width=15).grid(row=3, column=2, padx=5, pady=5, sticky=S) 
-
-
-
 
 if __name__ == "__main__":
     setupButtons()

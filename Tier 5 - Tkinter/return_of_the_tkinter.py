@@ -5,9 +5,7 @@ from tkinter import font as tkfont
 from tkinter import messagebox
 import random
 
-
 class tkinterTrial(tk.Tk):
-
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
 
@@ -45,7 +43,6 @@ class tkinterTrial(tk.Tk):
         self.destroy()
 
 class StartPage(tk.Frame):
-
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller
@@ -89,11 +86,7 @@ class StartPage(tk.Frame):
         weapon = weapons[3]
         messagebox.showinfo('Character Select', f'You have selected {player.name} the {player.race} {player.cls}! \n You are equipped with {weapon.name}, the {weapon.wpn}')
 
-   
-
-
 class FightScreen(tk.Frame):
-
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller
@@ -107,14 +100,12 @@ class FightScreen(tk.Frame):
                            command=lambda: [self.Fight(), controller.refresh_frame('FightScreen')])
         button.pack()
 
-
     def Fight(self):
         global enemy, player, game_over, enemies_defeated, weapon
         player.health -= enemy.dmg
         enemy.health -= (player.atk + weapon.dmg)
         messagebox.showinfo('Ouch!', f'{enemy.name} deals {enemy.dmg} damage to you! Your health is now {player.health}!')
         messagebox.showinfo('HAAAAAAA!', f'You have dealt {player.atk + weapon.dmg} with {weapon.name}! The enemy is now on {enemy.health} health!')
-
 
         if enemy.health <= 0:
             messagebox.showinfo('Victory!', f'Congratulations, you beat {enemy.name}!')
@@ -123,11 +114,7 @@ class FightScreen(tk.Frame):
             messagebox.showinfo('Death!', 'You have fallen!')
             app.quit_game()
 
-
-
-
 class Movement(tk.Frame):
-
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller
@@ -155,7 +142,6 @@ class Movement(tk.Frame):
                            command=lambda: [self.moveWest()])
         buttonW.pack()
 
-
     def update_board_display(self):
         global gameBoard
         gameBoard_str = "\n".join([str(row) for row in gameBoard])
@@ -175,7 +161,6 @@ class Movement(tk.Frame):
         else:
             messagebox.showwarning('Ouch!', 'You cannot move in that direction!')
 
-
     def moveSouth(self):
         global playerX,playerY
         if playerX < 4:
@@ -186,7 +171,6 @@ class Movement(tk.Frame):
             self.checkEnemy()
         else:
             messagebox.showwarning('Ouch!', 'You cannot move in that direction!')
-
 
     def moveEast(self):
         global playerX,playerY
@@ -199,7 +183,6 @@ class Movement(tk.Frame):
         else:
             messagebox.showwarning('Ouch!', 'You cannot move in that direction!')
 
- 
     def moveWest(self):
         global playerX,playerY
         if playerY > 0:
@@ -211,7 +194,6 @@ class Movement(tk.Frame):
         else:
             messagebox.showwarning('Ouch!', 'You cannot move in that direction!')
 
-    
     def checkEnemy(self):
         if enemyX == playerX and enemyY == playerY:
             self.controller.show_frame('FightScreen')
@@ -246,12 +228,10 @@ gameBoard = [[0,0,0,0,0],
              [0,0,0,0,0],
              [0,0,0,0,0]]
 
-# place the player in the middle of the game board
+# Place the player in the middle of the game board
 playerX = 2
 playerY = 2
 gameBoard[playerX][playerY] = 1
-
-
 
 enemy = enemies[random.randint(0, 1)]
 player = players[0]

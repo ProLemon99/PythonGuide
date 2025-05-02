@@ -18,4 +18,3 @@ class Enemy():
         self.type = type
         self.dmg = dmg
         self.health = health
-

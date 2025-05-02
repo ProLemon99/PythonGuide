@@ -5,7 +5,6 @@ def add(a, b):
 result = add(3, 4)
 print(result) # Output: 7
 
-
 def is_even(number):
     if number % 2 == 0: # If the number is even
         return True

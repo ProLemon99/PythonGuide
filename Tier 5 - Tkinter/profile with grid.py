@@ -24,10 +24,9 @@ name = Entry(root, bd=3)
 name.grid(row=1, column=2, padx=5, pady=5)
 
 # Gender label and dropdown widgets
-
 Label(root, text="Gender", bg="lightgrey").grid(row=2, column=1, padx=5, pady=5, sticky=E)
 
-#NOTE: Try this method instead of what is shown on the website, OptionMenu works much more effectively for this task!
+# NOTE: Try this method instead of what is shown on the website, OptionMenu works much more effectively for this task!
 gender_var = StringVar(root)
 gender_var.set('Select')
 gender_menu = OptionMenu(root, gender_var, 'Male', 'Female', 'Non-Binary')

@@ -22,10 +22,5 @@ def another_route():
     #return "This is another route"
     return render_template('another_route.html')    
 
-
-
-
-
-
 if __name__ == '__main__':
     app.run()
