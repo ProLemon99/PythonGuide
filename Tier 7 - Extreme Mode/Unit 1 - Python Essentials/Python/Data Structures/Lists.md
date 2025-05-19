@@ -8,7 +8,7 @@ Additionally, lists are ideal for situations where duplicate values are expected
 
 Python lists support a variety of operations such as indexing, which allows you to access specific elements by their position in the list, and slicing, which lets you retrieve a portion of the list.
 
-To create a list, simply place a series of comma-separated values inside square brackets []. In Python, when you include letters or characters in a list, they need to be enclosed in either single ' ' or double " " quotation marks.
+To create a list, simply place a series of comma-separated values inside square brackets ```[]```. In Python, when you include letters or characters in a list, they need to be enclosed in either single ' ' or double " " quotation marks.
 
 ```python
 # Creates a list containing two integers and two characters.
@@ -22,7 +22,7 @@ To access or modify an element, you use its position within the list, which is k
 ## **Mutability**
 Lists in Python are mutable, which means that you can modify the content of a list after it has been created, unlike some other data structures where changes would require the creation of a new instance.
 
-Lists come with built-in methods like append(), which adds an item to the end of the list, remove(), which deletes a specific item, pop(), which removes and returns the last item, and extend(), which adds multiple items from another list.
+Lists come with built-in methods like **```append()```**, which adds an item to the end of the list, **```remove()```**, which deletes a specific item, **```pop()```**, which removes and returns the last item, and **```extend()```**, which adds multiple items from another list.
 
 The mutability of lists is a key feature that distinguishes them from other collections like tuples. You can easily add, change, or remove items after the list has been created. This flexibility makes lists one of the most powerful and commonly used data structures in Python.
 

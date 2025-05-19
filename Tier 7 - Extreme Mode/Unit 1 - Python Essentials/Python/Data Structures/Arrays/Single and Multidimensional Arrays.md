@@ -60,29 +60,9 @@ print(matrix[2][2])  # Output: 9 (row 2, column 2)
 ```
 
 ## **Key Differences**
-|  | Single-Dimensional Array | Multi-Dimensional Array |
+| Feature | Single-Dimensional Array | Multi-Dimensional Array |
 | --- | --- | --- |
-| Feature | A single row of elements | A grid (rows and columns) |
-| Structure | Uses one index (e.g., ```arr[2]```) | Uses multiple indices (e.g., ```arr[1][2]```) |
-| Indexing |
-| Usage |
-| Library |
-
-
-Indexing
-
-Uses one index (e.g., arr[2])
-
-Uses multiple indices (e.g., arr[1][2])
-
-Usage
-
-Used for simple lists of data
-
-Used for tables, matrices, images, etc.
-
-Library
-
-Can use array module or lists
-
-Requires numpy for efficient handling
+| Structure | A single row of elements | A grid (rows and columns) |
+| Indexing | Uses one index (e.g., ```arr[2]```) | Uses multiple indices (e.g., ```arr[1][2]```) |
+| Usage | Used for simple lists of data | Used for tables, matrices, images, etc. |
+| Library | Can use array module or lists | Requires numpy for efficient handling |
