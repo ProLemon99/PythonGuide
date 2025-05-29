@@ -128,4 +128,41 @@ for i, item in enumerate(my_list):
 ```
 </td>
 </tr>
+<tr>
+<td> <b> Minimising Function Calls in Loops: </b> Repeated function calls in loops can slow down performance. Instead, store function results in a variable if they are called multiple times. </td>
+<td>
+
+```python
+for i in range(len(my_list)):
+    print(len(my_list))
+```
+</td>
+<td>
+
+```python
+list_length = len(my_list)
+for i in range(list_length):
+    print(list_length)
+```
+</td>
+</tr>
+<tr>
+<td> <b> Using any() and all(): </b> These functions are useful for checking conditions in a collection and are faster than manually looping through each element. </td>
+<td>
+
+```python
+found = False
+for item in my_list:
+    if item > 10:
+        found = True
+        break
+```
+</td>
+<td>
+
+```python
+found = any(item > 10 for item in my_list)
+```
+</td>
+</tr>
 </table>
