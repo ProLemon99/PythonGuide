@@ -9,7 +9,7 @@ Think of it like a list of numbers in a straight line:
 [10, 20, 30, 40, 50]
 ```
 Each item in this array is accessed using a single index.
-![Image](/Tier%207%20-%20Extreme%20Mode/Unit%201%20-%20Python%20Essentials/Data%20Structures/Arrays/Images/Arrays.png)
+![Image](/Tier%207%20-%20Software%20Engineering/Unit%201%20-%20Python%20Essentials/Python/Data%20Structures/Arrays/Images/Arrays.png)
 
 ### **Example Using Array Module**
 ```python
@@ -39,7 +39,7 @@ Each element is accessed using two indices: one for the row and one for the colu
 
 **2D Multidimensional Array Example**
 
-![Image](/Tier%207%20-%20Extreme%20Mode/Unit%201%20-%20Python%20Essentials/Data%20Structures/Arrays/Images/Multidimensional.png)
+![Image](/Tier%207%20-%20Software%20Engineering/Unit%201%20-%20Python%20Essentials/Python/Data%20Structures/Arrays/Images/Multidimensional.png)
 
 ### **Example Using NumPy Module**
 Python’s built-in array module only supports single-dimensional arrays, so we use NumPy for multi-dimensional arrays.

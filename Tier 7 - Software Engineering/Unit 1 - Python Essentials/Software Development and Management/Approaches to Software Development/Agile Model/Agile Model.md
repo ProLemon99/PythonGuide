@@ -6,7 +6,7 @@ Agile methods are particularly well suited to user-centred software development 
 
 **The Agile Method - a more iterative approach to development**
 
-![Agile Model](/Tier%207%20-%20Extreme%20Mode/Unit%201%20-%20Python%20Essentials/Software%20Development%20and%20Management/Approaches%20to%20Software%20Development/Agile%20Model/Agile.avif)
+![Agile Model](/Tier%207%20-%20Software%20Engineering/Unit%201%20-%20Python%20Essentials/Software%20Development%20and%20Management/Approaches%20to%20Software%20Development/Agile%20Model/Agile.avif)
 
 Agile development is characterised by small teams of developer. It is preferable for one team member to be a knowledgeable and experienced user. Small teams are better able to share ideas and work on solutions together. Larger teams tend to break into smaller groups – for agile methods to be a success everyone must be an equal member with a clear shared purpose. Often the team members are multi-skilled so all are actively contributing. 
 

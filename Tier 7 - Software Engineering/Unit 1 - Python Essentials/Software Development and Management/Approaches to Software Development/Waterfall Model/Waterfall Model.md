@@ -17,7 +17,7 @@ This approach is generally used for large-scale projects where performance and r
 
 **The Waterfall model - a structured and linear approach to development**
 
-![Waterfall Model](/Tier%207%20-%20Extreme%20Mode/Unit%201%20-%20Python%20Essentials/Software%20Development%20and%20Management/Approaches%20to%20Software%20Development/Waterfall%20Model/waterfall.png)
+![Waterfall Model](/Tier%207%20-%20Software%20Engineering/Unit%201%20-%20Python%20Essentials/Software%20Development%20and%20Management/Approaches%20to%20Software%20Development/Waterfall%20Model/waterfall.png)
 
 Because of the structured nature of this method, it is particularly suited to software development where all the requirements and specifications can be defined before any design commences. Generally, these are large-scale projects requiring a full development team and the timeframe is long with a large budget. If safety is important and or a bespoke solution is required, then the Structured Approach is likely the most suitable.
 
