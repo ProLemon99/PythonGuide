@@ -38,7 +38,9 @@ The following is an example of database tables.
 - A **RECORD (ROW)** is made up of many **FIELDS (COLUMNS).**
 
 **Database Tables**
+
 ![Example](/Tier%207%20-%20Software%20Engineering/Unit%201%20-%20Python%20Essentials/Software%20Development%20and%20Management/Charts%20and%20Algorithms/Data%20Dictionaries/Images/databaseetableexample.avif)
 
 **Database Schema**
+
 ![Schema](/Tier%207%20-%20Software%20Engineering/Unit%201%20-%20Python%20Essentials/Software%20Development%20and%20Management/Charts%20and%20Algorithms/Data%20Dictionaries/Images/schemaexample2.avif)
