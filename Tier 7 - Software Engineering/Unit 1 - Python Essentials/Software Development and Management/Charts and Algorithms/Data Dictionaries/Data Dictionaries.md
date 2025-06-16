@@ -8,6 +8,7 @@ A database organises data in tables with rows (records) and columns (attributes)
 A data dictionary provides a comprehensive description of each variable stored or referred to in a system. This commonly includes variable name, data type, format, size in bytes, number of characters to display the item including number of decimal places (if applicable), the purpose of each variable and a relevant example. Any validation rules applicable to the data item can also be included.
 
 **Data Dictionary from Course Specifications**
+
 ![Data Dictionary](/Tier%207%20-%20Software%20Engineering/Unit%201%20-%20Python%20Essentials/Software%20Development%20and%20Management/Charts%20and%20Algorithms/Data%20Dictionaries/Images/datadictexample.avif)
 
 **⚠️ The above data dictionary is in the <u> expected format and is examinable. </u>**
@@ -26,6 +27,7 @@ It defines the structure of the database in terms of the tables, columns, relati
 - **Constraints:** Rules applied to table columns to enforce data integrity, such as NOT NULL, UNIQUE, CHECK, etc.
 
 **Data Schema for a Relational Database**
+
 ![Data Schema](/Tier%207%20-%20Software%20Engineering/Unit%201%20-%20Python%20Essentials/Software%20Development%20and%20Management/Charts%20and%20Algorithms/Data%20Dictionaries/Images/dataschemaexample.avif
 )
 
