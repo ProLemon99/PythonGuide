@@ -15,6 +15,7 @@ DFDs facilitate a top-down design approach by breaking down a system into increa
 
 ## **Example**
 **DFD for a Voting System**
+
 ![Example 1](/Tier%207%20-%20Software%20Engineering/Unit%201%20-%20Python%20Essentials/Software%20Development%20and%20Management/Charts%20and%20Algorithms/Data%20Flow%20Diagrams/Images/example.avif)
 
 ## **System Scope & Boundaries (Level 0 DFD)**
@@ -29,4 +30,5 @@ These diagrams highlight the sources (inputs) and destinations (outputs) of data
 Context diagrams serve as high-level views, showing how the system exchanges data with its environment, including users, other organisations, and systems, without delving into the system’s internal workings.
 
 **Context Diagram (Level 0 DFD) of a Voting System**
+
 ![Example 2](/Tier%207%20-%20Software%20Engineering/Unit%201%20-%20Python%20Essentials/Software%20Development%20and%20Management/Charts%20and%20Algorithms/Data%20Flow%20Diagrams/Images/level0dfd.avif)

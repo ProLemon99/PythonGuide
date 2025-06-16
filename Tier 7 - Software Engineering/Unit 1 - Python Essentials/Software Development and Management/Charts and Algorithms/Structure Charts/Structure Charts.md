@@ -15,6 +15,7 @@ Structure charts are read top-to-bottom for hierarchy and left-to-right for exec
 
 ## **Example 1**
 **Example of a Library Management System**
+
 ![Example 1](/Tier%207%20-%20Software%20Engineering/Unit%201%20-%20Python%20Essentials/Software%20Development%20and%20Management/Charts%20and%20Algorithms/Structure%20Charts/Images/example1.png)
 
 Further detail for each of the lower-level subroutines can be shown in a separate structure chart, using the same name as the subroutine used in the main structure chart. This method of providing successively more detail as required is known as refinement.
@@ -25,4 +26,5 @@ The following is a very simple example to show you how this might look with a ve
 To make it easy, the 'subroutines' of a Python program are simply functions within `main()`.
 
 **Simple Example with Python Code**
+
 ![Example 2](/Tier%207%20-%20Software%20Engineering/Unit%201%20-%20Python%20Essentials/Software%20Development%20and%20Management/Charts%20and%20Algorithms/Structure%20Charts/Images/example2.avif)
