@@ -1,8 +1,10 @@
 info = {
-    "NAME": "__INSERT NAME__",
-    "AGE": "__YOUR AGE__",
+    "NAME": "RAY WONG",
+    "AGE": "16",
     "IS_VERIFIED": True
 }
+
 print(info["NAME"])
-print(info.get("BIRTHDAY","__INSERT BIRTHDAY__"))
-info["BIRTHDAY"] = "_BIRTHDAY_"
+print(info["AGE"])
+print(info.get("BIRTHDAY", "June 22 2009"))
+info["BIRTHDAY"] = "June 22 2009"

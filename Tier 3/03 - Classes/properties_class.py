@@ -7,6 +7,7 @@ class Presenter():
 	def name(self):
 		print('Retrieving name...')
 		return self.__name
+	
 	@name.setter
 	def name(self, value):
 		# cool validation here

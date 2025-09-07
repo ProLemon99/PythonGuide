@@ -11,8 +11,8 @@
 # Example 1
 i = 1
 while i <= 5:
-  print (i)
-  i = i + 1
+    print(i)
+    i += 1
 
 # Example 2
 names = ['Christopher', 'Susan']
@@ -20,7 +20,7 @@ index = 0
 while index < len(names):
 	print(names[index])
 	# Change the condition!!
-	index = index + 1
+	index += 1
 
 # Example 3  
 while True:
