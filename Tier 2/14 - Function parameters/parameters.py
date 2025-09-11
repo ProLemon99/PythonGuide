@@ -1,5 +1,10 @@
-def example(first_name,last_name):
+def example(first_name, last_name):
     print(f"Hi {first_name} {last_name}")
 
-# Positional arguments first
-example(first_name="Cursed",last_name="Toxic")
+# Keyword Arguments
+example(first_name="Cursed", last_name="Toxic")
+
+# Positional Arguments
+example("Cursed", "Toxic")
+
+# They both have the same output

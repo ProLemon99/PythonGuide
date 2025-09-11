@@ -18,4 +18,3 @@ print(fullName)
  # Add comments to the code below to explain what it does
 
 print("Hello " + firstName + ". Your full name is " + fullName + ".")
-
